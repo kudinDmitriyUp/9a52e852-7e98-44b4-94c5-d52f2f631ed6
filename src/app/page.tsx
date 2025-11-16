@@ -1,6 +1,6 @@
 "use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { Star, Sparkles, Calendar } from "lucide-react";
+import { Star, Sparkles, Calendar, Instagram, Facebook, Twitter } from "lucide-react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroSplitStacked from '@/components/sections/hero/HeroSplitStacked';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -340,17 +340,17 @@ export default function Home() {
           ]}
           socialLinks={[
             {
-              icon: "Instagram",
+              icon: Instagram,
               href: "https://instagram.com/grandhaven",
               ariaLabel: "Follow us on Instagram"
             },
             {
-              icon: "Facebook",
+              icon: Facebook,
               href: "https://facebook.com/grandhaven",
               ariaLabel: "Follow us on Facebook"
             },
             {
-              icon: "Twitter",
+              icon: Twitter,
               href: "https://twitter.com/grandhaven",
               ariaLabel: "Follow us on Twitter"
             }
