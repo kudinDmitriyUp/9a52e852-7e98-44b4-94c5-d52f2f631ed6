@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import { Star, Sparkles, Calendar } from "lucide-react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -137,8 +137,8 @@ export default function Home() {
               imageAlt: "Hotel spa"
             }
           ]}
-          titleClassName="text-3xl md:text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
+          textBoxTitleClassName="text-3xl md:text-4xl font-bold"
+          textBoxDescriptionClassName="text-lg text-foreground/80"
         />
       </div>
       
@@ -175,8 +175,8 @@ export default function Home() {
               onProductClick: () => window.open('https://booking.com', '_blank')
             }
           ]}
-          titleClassName="text-3xl md:text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
+          textBoxTitleClassName="text-3xl md:text-4xl font-bold"
+          textBoxDescriptionClassName="text-lg text-foreground/80"
           cardNameClassName="text-lg font-semibold"
           cardPriceClassName="text-xl font-bold text-primary-cta"
         />
@@ -235,8 +235,8 @@ export default function Home() {
               ]
             }
           ]}
-          titleClassName="text-3xl md:text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
+          textBoxTitleClassName="text-3xl md:text-4xl font-bold"
+          textBoxDescriptionClassName="text-lg text-foreground/80"
           badgeClassName="primary-button text-background"
           priceClassName="text-4xl font-bold"
           subtitleClassName="text-foreground/80"
@@ -283,8 +283,8 @@ export default function Home() {
               imageAlt: "David Kim"
             }
           ]}
-          titleClassName="text-3xl md:text-4xl font-bold"
-          descriptionClassName="text-lg text-foreground/80"
+          textBoxTitleClassName="text-3xl md:text-4xl font-bold"
+          textBoxDescriptionClassName="text-lg text-foreground/80"
           nameClassName="font-semibold"
           roleClassName="text-foreground/70"
           testimonialClassName="text-foreground/90 italic"
